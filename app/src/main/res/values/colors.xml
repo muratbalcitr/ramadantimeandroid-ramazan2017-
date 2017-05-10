@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0195ca</color>
+    <color name="colorPrimaryDark">#058dc7</color>
+    <color name="colorAccent">#009fb7</color>
+    <color name="iftarArka">#f54c03</color>
+    <color name="yesil">#51ab02</color>
+    <color name="dede">#ccc</color>//ccccccc
+    <color name="yesil2">#f8ebebeb</color>
+    <color name="detay">#9e01a4d1</color>
+    <color name="gunbanner">#004cf1</color>
+    <color name="sabah">#182542</color>
+    <color name="gunes">#c124458e</color>
+    <color name="oglen">#2195e7</color>
+    <color name="ikindi">#dcb802</color>
+    <color name="aksam">#2c2947</color>
+    <color name="yatsi">#1a1919</color>
+    <color name="vakitarka">#aa118cef</color>
+    <color name="vakitbackground">#fcc17007</color>
+    <color name="sehirsecarka">#05a9f5</color>
+    <color name="sehirsecdraw">#f2f2f2</color>
+    <color name="tumsehirler">#0a763c</color>
+    <color name="tumsehirArka">#ffffff</color>
+    <color name="text">#000000</color>
+    <color name="sehirText">#941493ed</color>
+    <color name="whiteTrans">#b0ff3700</color>
+</resources>

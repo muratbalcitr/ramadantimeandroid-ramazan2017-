@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/as"
+    android:padding="2dp"
+    tools:context="com.murat.iftarvakti.IftarVakti">
+
+    <LinearLayout
+        android:id="@+id/llty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/llustBilgi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@android:color/transparent"
+                android:orientation="vertical"
+                android:padding="1dp"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/btnGunSayisi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:background="@color/gunes"
+                    android:text="@string/gun_sayisi"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/tvSehirAdi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="@string/sehir"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/tvTarih"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="@string/gun"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/tvIftarakalan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="@string/iftara_kalan"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/sehirsecdraw"
+                    android:drawableLeft="@drawable/ic_autorenew"
+                    android:onClick="sehirDegistir"
+                    android:paddingLeft="10dp"
+                    android:text="@string/sehirdegistir" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/sekil"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:text="@string/sabah_vakti"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tvSabahVakti"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="10dp"
+                        android:text="  ---"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:text="@string/gunesvakti"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tvGunesVakti"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="10dp"
+                        android:text="  ---"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:text="@string/oglen_vakti"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tvOglenVakti"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="10dp"
+                        android:text="   ---"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:text="@string/ikindi_vakti"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tvIkindiVakti"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="10dp"
+                        android:text="    ---"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:text="@string/aksam_vakti"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tvAksamVakti"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="10dp"
+                        android:text=" ---"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:text="@string/yatsi_vakti"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tvYatsiVakti"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="10dp"
+                        android:text="    ---"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnTumAy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/tumsehirler"
+                    android:drawableLeft="@drawable/ic_settings"
+                    android:onClick="btnTumAy"
+                    android:paddingLeft="10dp"
+                    android:text="@string/butun_gunleri_goster"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

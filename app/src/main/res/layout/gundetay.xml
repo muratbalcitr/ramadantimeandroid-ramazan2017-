@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/whiteTrans"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/tvGunSayisi"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2dp"
+                android:paddingRight="5dp"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:text="gun"
+                android:textAllCaps="true"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnTarih"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:background="@android:color/transparent"
+                android:text="Tarih"
+                android:textAllCaps="false"
+                android:textColor="@android:color/background_light"
+                android:textSize="20dp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/detay"
+            android:elevation="10dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/tvSabah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.2"
+                android:elevation="10dp"
+                android:padding="8dp"
+                android:text="sabah"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvOglen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.2"
+                android:elevation="10dp"
+                android:padding="8dp"
+                android:paddingTop="5dp"
+                android:text="Öğlen"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvIkindi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.2"
+                android:elevation="10dp"
+                android:padding="8dp"
+                android:paddingTop="5dp"
+                android:text="İkindi"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvAksam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.2"
+                android:elevation="10dp"
+                android:padding="8dp"
+                android:paddingTop="5dp"
+                android:text="akşam"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvYatsi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.2"
+                android:elevation="10dp"
+                android:padding="8dp"
+                android:paddingTop="5dp"
+                android:text="Yatsı"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

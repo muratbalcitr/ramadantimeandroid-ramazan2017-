@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">İftar Vakti 2017</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_iftarvakti">iftarvakti</string>
+    <string name="title_home">İftar Vakti</string>
+    <string name="title_dashboard">Zikirmatik</string>
+    <string name="title_notifications">Haftalık</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sehirdegistir">Sehir Değiştir</string>
+    <string name="gun">Gün</string>
+    <string name="gun_sayisi">gün sayısı</string>
+    <string name="sehir">sehir</string>
+    <string name="iftara_kalan">iftara kalan</string>
+    <string name="sabah_vakti">Sabah  :</string>
+    <string name="gunesvakti">Güneş    :</string>
+    <string name="oglen_vakti">Öğlen   :</string>
+    <string name="ikindi_vakti">İkindi :</string>
+    <string name="aksam_vakti">Akşam   :</string>
+    <string name="yatsi_vakti">Yatsı   :</string>
+    <string name="butun_gunleri_goster">bütün günleri görün</string>
+
+
+    <!-- admob -->
+    <string name="banner_ad_unit_id">ca-app-pub-9057596586284356~8535497822</string>
+
+    <string-array name="hadisler">
+
+
+    </string-array>
+</resources>

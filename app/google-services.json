@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "5879940215",
+    "firebase_url": "https://iftarvaktiadmob.firebaseio.com",
+    "project_id": "iftarvaktiadmob",
+    "storage_bucket": "iftarvaktiadmob.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5879940215:android:3e65c84723465879",
+        "android_client_info": {
+          "package_name": "com.murat.iftarvakti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "5879940215-q36v9lga55i0ck2pko4lefmbe9adgs7q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.murat.iftarvakti",
+            "certificate_hash": "3d76ef6ce87cbc446ed311007eb9f30ae4baecd3"
+          }
+        },
+        {
+          "client_id": "5879940215-8uifdqsuqbfsitt82eutn7rm7hm2n7q4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYmGs53Z6WEb3JGXsjMpmwuCtCy6aEQqM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "5879940215-8uifdqsuqbfsitt82eutn7rm7hm2n7q4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
