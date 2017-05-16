@@ -68,7 +68,7 @@ public class IftarVakti extends AppCompatActivity {
 
     private void adMobsInitialize() {
         mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ca-app-pub-9057596586284356~8535497822");
+        mInterstitialAd.setAdUnitId("");
 
         mInterstitialAd.setAdListener(new AdListener() {
             @Override
